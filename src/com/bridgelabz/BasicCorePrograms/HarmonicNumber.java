@@ -11,9 +11,10 @@ public class HarmonicNumber {
 			for(int index=1;index<=number;index++)
 			{
 				result += (double)1/index;
+				System.out.println("The harmonic series of "+number+" is " +result);
 				
 			}
-			System.out.println("The harmonic value of "+number+" is " +result);
+			
 		}
 		else
 		{
